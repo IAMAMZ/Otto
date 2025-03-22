@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-200 overflow-hidden">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center min-h-screen bg-gradient-to-b from-red-50 to-red-50">
+      <section className="relative flex items-center justify-center min-h-screen bg-gradient-to-b from-white to-red-300">
         {/* Subtle background element */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-red-900/10 via-transparent to-transparent"></div>
 
