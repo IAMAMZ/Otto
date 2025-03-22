@@ -35,7 +35,7 @@ export default function Home() {
           <div className="mt-10">
             <Link
               href="/manufacturing-cell"
-              className="inline-flex items-center px-6 py-5 bg-cyan-500 text-gray-900 font-medium rounded-md hover:bg-cyan-400 transition-colors duration-300"
+              className="inline-flex items-center px-6 py-5 bg-red-600 text-gray-100 font-semibold rounded-md hover:bg-red-400 transition-colors duration-300"
             >
               Start Learning
               <ArrowRight className="ml-2 w-4 h-4" />
@@ -47,34 +47,34 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-20 px-6 bg-gray-300">
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-2xl font-bold text-center mb-12 text-white">
+          <h2 className="text-2xl font-bold text-center mb-12 text-gray-700">
             Essential Tools
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Feature Card 1 */}
-            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:border-red-700 transition-colors duration-300">
+            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:bg-red-100 hover:border-red-700 transition-colors duration-300">
               <Car className="w-6 h-6 text-red-500 mb-4" />
-              <h3 className="text-lg font-medium text-white mb-2">Visualize</h3>
-              <p className="text-gray-400 text-sm">
+              <h3 className="text-lg font-medium text-gray-800 mb-2">Visualize</h3>
+              <p className="text-gray-700 text-sm">
                 Explore 3D automotive designs with our advanced viewer.
               </p>
             </div>
 
             {/* Feature Card 2 */}
-            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:border-red-700 transition-colors duration-300">
+            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:bg-red-100 hover:border-red-700 transition-colors duration-300">
               <PenTool className="w-6 h-6 text-red-500 mb-4" />
-              <h3 className="text-lg font-medium text-white mb-2">Create</h3>
-              <p className="text-gray-400 text-sm">
+              <h3 className="text-lg font-medium text-gray-800 mb-2">Create</h3>
+              <p className="text-gray-700 text-sm">
                 Sketch your designs with precision drawing tools.
               </p>
             </div>
 
             {/* Feature Card 3 */}
-            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:border-red-700 transition-colors duration-300">
+            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:bg-red-100 hover:border-red-700 transition-colors duration-300">
               <FileText className="w-6 h-6 text-red-500 mb-4" />
-              <h3 className="text-lg font-medium text-white mb-2">Analyze</h3>
-              <p className="text-gray-400 text-sm">
+              <h3 className="text-lg font-medium text-gray-800 mb-2">Analyze</h3>
+              <p className="text-gray-700 text-sm">
                 Review technical specifications with document analysis.
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function Home() {
           </p>
           <Link
             href="/car-view"
-            className="inline-flex items-center px-6 py-3 bg-red-500 text-gray-900 font-medium rounded-md hover:bg-red-400 transition-colors duration-300"
+            className="inline-flex items-center px-6 py-3 bg-red-600 text-gray-100 font-semibold rounded-md hover:bg-red-400 transition-colors duration-300"
           >
             Start Creating
           </Link>
