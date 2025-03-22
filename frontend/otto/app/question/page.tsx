@@ -70,11 +70,7 @@ const ManufacturingQuestionnairePage = () => {
     const router = useRouter();
     // Using router with query parameters
     router.push({
-      pathname: '/learning-guide',
-      query: {
-        answers: JSON.stringify(answers),
-        feedback: JSON.stringify(feedback)
-      }
+      pathname: '/drawin',
     });
   };
 
@@ -222,7 +218,7 @@ const ManufacturingQuestionnairePage = () => {
                       hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500
                       transition-all duration-200 font-medium"
                   >
-                    Proceed to Designer
+                    Proceed to the Dream Space
                   </button>
                 </div>
               </div>

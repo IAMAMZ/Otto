@@ -139,8 +139,8 @@ export default function ManufacturingCell() {
                   Next
                 </button>
               ) : (
-                <Link href={stages[currentStage].href} className="nav-button explore-link">
-                  Explore More
+                <Link href="question" className="nav-button explore-link">
+                  Check Your Knowledge
                 </Link>
               )}
             </div>

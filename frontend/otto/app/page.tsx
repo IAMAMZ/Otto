@@ -34,10 +34,10 @@ export default function Home() {
 
           <div className="mt-10">
             <Link
-              href="/car-view"
-              className="inline-flex items-center px-6 py-3 bg-cyan-500 text-gray-900 font-medium rounded-md hover:bg-cyan-400 transition-colors duration-300"
+              href="/manufacturing-cell"
+              className="inline-flex items-center px-6 py-5 bg-cyan-500 text-gray-900 font-medium rounded-md hover:bg-cyan-400 transition-colors duration-300"
             >
-              Discover Tools
+              Start Learning
               <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
           </div>
