@@ -12,30 +12,30 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-900 overflow-hidden">
+    <div className="min-h-screen bg-gray-200 overflow-hidden">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center min-h-screen bg-gradient-to-b from-gray-900 to-gray-950">
+      <section className="relative flex items-center justify-center min-h-screen bg-gradient-to-b from-red-50 to-red-50">
         {/* Subtle background element */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-900/10 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-red-900/10 via-transparent to-transparent"></div>
 
         {/* Glowing Orb Effect */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-64 h-64 bg-blue-500 rounded-full blur-3xl opacity-10 animate-pulse"></div>
+          <div className="w-64 h-64 bg-red-500 rounded-full blur-3xl opacity-10 animate-pulse"></div>
         </div>
 
         <div className="relative z-10 text-center px-6 max-w-2xl">
-          <h1 className="text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-500">
+          <h1 className="text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">
             Otto
           </h1>
 
-          <p className="mt-4 text-xl text-gray-300 leading-relaxed">
+          <p className="mt-4 text-xl font-bold text-red-700 leading-relaxed">
             Redefining Automotive Engineering with AI Innovation
           </p>
 
           <div className="mt-10">
             <Link
               href="/car-view"
-              className="inline-flex items-center px-6 py-3 bg-cyan-500 text-gray-900 font-medium rounded-md hover:bg-cyan-400 transition-colors duration-300"
+              className="inline-flex items-center px-6 py-3 bg-red-600 text-gray-100 font-semibold rounded-md hover:bg-red-500 transition-colors duration-300"
             >
               Discover Tools
               <ArrowRight className="ml-2 w-4 h-4" />
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-6 bg-gray-950">
+      <section className="py-20 px-6 bg-gray-300">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-2xl font-bold text-center mb-12 text-white">
             Essential Tools
@@ -53,8 +53,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Feature Card 1 */}
-            <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-700 transition-colors duration-300">
-              <Car className="w-6 h-6 text-cyan-500 mb-4" />
+            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:border-red-700 transition-colors duration-300">
+              <Car className="w-6 h-6 text-red-500 mb-4" />
               <h3 className="text-lg font-medium text-white mb-2">Visualize</h3>
               <p className="text-gray-400 text-sm">
                 Explore 3D automotive designs with our advanced viewer.
@@ -62,8 +62,8 @@ export default function Home() {
             </div>
 
             {/* Feature Card 2 */}
-            <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-700 transition-colors duration-300">
-              <PenTool className="w-6 h-6 text-cyan-500 mb-4" />
+            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:border-red-700 transition-colors duration-300">
+              <PenTool className="w-6 h-6 text-red-500 mb-4" />
               <h3 className="text-lg font-medium text-white mb-2">Create</h3>
               <p className="text-gray-400 text-sm">
                 Sketch your designs with precision drawing tools.
@@ -71,8 +71,8 @@ export default function Home() {
             </div>
 
             {/* Feature Card 3 */}
-            <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-700 transition-colors duration-300">
-              <FileText className="w-6 h-6 text-cyan-500 mb-4" />
+            <div className="bg-gray-200 p-6 rounded-lg border border-gray-800 hover:border-red-700 transition-colors duration-300">
+              <FileText className="w-6 h-6 text-red-500 mb-4" />
               <h3 className="text-lg font-medium text-white mb-2">Analyze</h3>
               <p className="text-gray-400 text-sm">
                 Review technical specifications with document analysis.
@@ -93,7 +93,7 @@ export default function Home() {
           </p>
           <Link
             href="/car-view"
-            className="inline-flex items-center px-6 py-3 bg-cyan-500 text-gray-900 font-medium rounded-md hover:bg-cyan-400 transition-colors duration-300"
+            className="inline-flex items-center px-6 py-3 bg-red-500 text-gray-900 font-medium rounded-md hover:bg-red-400 transition-colors duration-300"
           >
             Start Creating
           </Link>
@@ -101,7 +101,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-950 py-8 text-center border-t border-gray-800">
+      <footer className="bg-gray-300 py-8 text-center border-t border-gray-800">
         <p className="text-gray-500 text-sm">© 2025 Otto. All rights reserved.</p>
       </footer>
     </div>
