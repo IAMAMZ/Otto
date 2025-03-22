@@ -155,11 +155,11 @@ body {
 }
 
 .nav-button:hover:not(:disabled) {
-  background-color: #218838;
+  background-color: gray;
 }
 
 .explore-link {
-  background-color: #007bff;
+  background-color: red;
   text-decoration: none;
   display: inline-block;
 }
