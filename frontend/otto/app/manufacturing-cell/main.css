@@ -1,0 +1,194 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #e6e9f0 0%, #eef1f5 100%);
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a73e8;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+  /* Start Button */
+  .start-button {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #1557b0;
+  }
+  
+  /* Stage Modal */
+  .stage-modal {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .stage-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a73e8;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .stage-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .stage-details {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .stage-details strong {
+    color: #333;
+  }
+  
+  /* Navigation */
+  .stage-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .nav-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .nav-button:hover:not(:disabled) {
+    background-color: #218838;
+  }
+  
+  .explore-link {
+    background-color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .explore-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .progress {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Exit Button */
+  .exit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: #dc3545;
+    background: none;
+    border: 1px solid #dc3545;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exit-button:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 2.25rem;
+    }
+  
+    .subtitle {
+      font-size: 1.1rem;
+    }
+  
+    .stage-modal {
+      padding: 1.5rem;
+    }
+  
+    .stage-title {
+      font-size: 1.75rem;
+    }
+  
+    .stage-navigation {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .nav-button {
+      width: 100%;
+    }
+  }
