@@ -1,0 +1,12 @@
+venv
+.env
+
+__pycache__
+*.pyc
+pdfs
+output
+*.aux
+*.log
+*.pdf
+*.toc
+*.tex
